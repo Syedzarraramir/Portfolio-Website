@@ -1,17 +1,226 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #000; /* Border color */
+        }
+        th, td {
+            border: 1px solid #000; /* Border color */
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f2f2f2; /* Header background color */
+        }
+        ::-webkit-validation-bubble-heading{
+            background-color: blue;
+            color: red;
+        }
+        
+    </style>
 </head>
 <body>
-    <h1>Home Page</h1>
-    <a href="./Myprojects/Project.html" target="_blank" title="Zarrar's Project">Project <br></a>
-   
+    <!-- here i am using Tradional HTML layout header there are the link of the following other headings -->
+    <header>
+        <a href="#Skills">Skills</a>
+        <a href="#Contacts">Contact</a>
+        <a href="#Projects">Project</a>
+        <a href="#Message">Message</a>
+    </header>
+   <!-- Here i am using content -->
+  <div> 
+    <h1 class="heading">Portfolio-Website </h1>
+    <figure>
+        <img src="./Pictures+Icon/Profile.jpg" class="zarrarpicture" title="Zarrar" alt=" Syed Zarrar Amir" width="100">
+        <figcaption>Syed Zarrar Amir </figcaption>
+    </figure>
+    <h1>Syed Zarrar Amir</h1>
+    Address: <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3309.927445248276!2d71.5541119708863!3d33.94299417041891!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38d919dda60f645f%3A0xf9f3fe739c6403b8!2sMasjid%20Abdulla%20Bin%20Masood%20Rahim%20Abad%20Kaga%20Wala%20Peshawar!5e0!3m2!1sen!2s!4v1710391483729!5m2!1sen!2s" width="300"  style="border: 10px;;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"> </iframe>
+    <p>I am Syed Zarrar Amir Bs Computer Science Student of Fg Degree College Peshawar Cantt,Now Currently I am in First Semester</p>
+    <p>My dream is to become WEB DEVELOPER</p>
+    <p><iframe width="560" height="315" src="https://www.youtube.com/embed/TG6XSFeOT3g?si=wNJ1Hu-K69WNC0Eo" width="500" title="YouTube video player" frameborder="0" autoplay; allow="accelerometer;  clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+    <h4>My Education</h4>
+    <ol>
+        <li>Matric</li><a href="https://fazaia.edu.pk/ficbadaber/home" target="_blank">My Matric School Link</a>
+        <li>FSC</li><a href="https://fazaia.edu.pk/ficbadaber/home">My FSC School Link</a>
+        <li>DIT</li><a href="https://kpbte.edu.pk/">My DIT Institute Link</a>
 
-<a href="./contact/contact.html" target="_blank" title="Mobile Phone No : Email :Linked in">Contact <br></a>
-<a href="./skills/myskills.html" target="_blank" title="Zarrar's Skills"> <dfn>Skills</dfn> <br></a>
-<a href="./Introduction/Home.html" target="_blank" title="Introduction"> <dfn>Introduction</dfn> <br></a>
+        <h3>Education in Table</h3>
+        <table>
+            <thead>
+                <tr>
+                    <th>Level</th>
+                    <th>          School&College</th>
+                    <th>          Obt Marks/Total Marks</th>
+                    <th>          Year</th>
+                    <th>          Zarrar Age</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>SSC(Matric)</td>
+                    <td>Fazaia Inter College Paf Camp Badaber</td>
+                    <td>737/1100</td>
+                    <td>2021</td>
+                    <td>16 Years</td>
+                                        </tr>
+                <tr>
+                    <td>HSSC(Inter)</td>
+                    <td>Fazaia Inter College Paf Camp Badaber</td>
+                    <td>749/1100</td>
+                    <td>2023</td>
+                    <td>18 Years</td>
+                </tr>
+                <tr>
+                    <td>DIT(DIPLOMA INFORMATION TECHNOLOGY)</td>
+                    <td>Technical College</td>
+                    <td>1037/1400</td>
+                    <td>2022</td>
+                    <td>17 Years</td>
+
+                </tr>
+                <tr>
+                   <td>BS COMPUTER SCIENCE</td>
+                   <td>Fg Degree College Peshawar Cant</td>
+                   <td>4/4</td>
+                   <td>2027</td>
+                   <td>22 Years</td>
+
+                </tr>
+            </tbody>
+        </table>
+
+    </ol>
+    <ul>
+        <li>AGE: 19</li>
+        
+        
+    </ul> <br> <br>
+  </div>
+  <hr><hr><hr><hr><hr>
+<article id="Contacts">
+        <h1>Contacts</h1>
+    <ol>
+        <dl>
+            <dt>
+                SYED ZARRAR AMIR
+            </dt>
+     <li>       <dd>Syed Zarrar Amir s/o Amir Ali Shah <br>Residence Kagawala Mohallah Rahman Abad Jarandeah lara 50 Meter away From Alfalah Clinic Hospital  </dd>
+     </li>
+     
+     
+    </dl>
+<li><img src="./Pictures+Icon/Phone.png" alt="" width="25"> Mobile Contact: 03123456789 <br></li>
+                  <!--There i will write my email-->
+                  <li><img src="./Pictures+Icon/email.png" alt="" width="25">Email Address:<a href="mailto:szarraramir@gmail.com" target="_blank" >Syed Zarrar Amir Mail </a></li>
+                 <!--this is my linked in account-->
+                 <li><img src="./Pictures+Icon/linkedin.png" alt="" width="25">Linkedin Account: <a href="https://www.linkedin.com/in/syed-zarrar-amir-8a86b52b2?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=andriod_app" target="_blank" title="SYED ZARRAR AMIR ">Linkedin</a></li>
+</ol>
+<hr><hr><hr><hr><hr>
+</article>
+<article id="Message">
+<h1>                               Message us                                     </h1>
+<fieldset>
+    <legend>Drop Your Message</legend>
+    <form >
+        Picture: <input type="file" name="" id=""> <br> <br>
+        First Name: <input type="text" maxlength="10"> Last Name: <input type="text" maxlength="10"> <br><br>
+        Message: <textarea name="text" id="" cols="60" rows="1"></textarea> <br><br>
+        Email: <input type="email"> <br> <br>
+        Phone: <select  id="Area Code"> <option value="Pak">+92</option> <option value="oth">+93</option> <option value="othe">+94</option> <option value="other">+95</option></select> Phone Number <input type="text" maxlength="11"> <br> <br>
+        <label for="subjects">Choose a subject:</label>
+<select id="subjects">
+    <option value="science">Science</option>
+    <option value="maths">Maths</option>
+    <option value="physics">Physics</option>
+    <option value="computer">Computer</option>
+    <option value="chemistry">Chemistry</option>
+</select> <br> <br>
+Are you Existing Customer?
+<input type="radio">Yes <input type="radio">No <br> <br>
+<input type="submit" required> <br> <br>
+
+
+    </form>
+</fieldset>
+</article>
+<hr><hr><hr><hr><hr>
+<article id="Projects">
+<h1>My Project</h1>
+    <dl> 
+
+    <dt> <h2>Syed Zarrar Amir</h2> Project No 1</dt>
+    <img src="./Pictures+Icon/Project 1.webp" alt="" width="100">
+    <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quos illo totam laboriosam sunt quam ut voluptatibus aliquid mollitia, eius, corrupti tempore eum, obcaecati eos pariatur modi eaque? Placeat, delectus?</dd>
+
+    
+    <dt> <h2>Syed Zarrar Amir</h2> Project No 2</dt>
+    <img src="./Pictures+Icon/project2.jpg" alt="" width="100">
+    <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quos illo totam laboriosam sunt quam ut voluptatibus aliquid mollitia, eius, corrupti tempore eum, obcaecati eos pariatur modi eaque? Placeat, delectus?</dd>
+    
+
+    <dt> <h2>Syed Zarrar Amir</h2> Project No 3</dt>
+    <img src="./Pictures+Icon/project3.jpg" alt="" width="100">
+    <dd>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur quos illo totam laboriosam sunt quam ut voluptatibus aliquid mollitia, eius, corrupti tempore eum, obcaecati eos pariatur modi eaque? Placeat, delectus?</dd>
+    
+
+
+</dl>
+           <h3>Table of My Projects</h3>
+           <table>
+              <thead>
+                <tr>
+                    <th>Project No </th>
+                    <th>Company</th>
+                    <th>Contract</th>
+                    <th>Cost</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                    <td>01</td>
+                    <td>SMIT</td>
+                    <td>3 Lacks Only Per Month</td>
+                    <td>2 Crore Pkr</td>
+
+                </tr>
+                <tr>
+                    <tr>
+                        <td>02</td>
+                        <td>Fazaia Schools</td>
+                        <td>10 Lacks Only Per Month</td>
+                        <td>18 Crore Pkr</td>
+    
+                    </tr>
+                    <tr>
+                        <td>03</td>
+                        <td>FG COLLEGES</td>
+                        <td>65 Lacks Only Per Month</td>
+                        <td>87 Crore Pkr</td>
+    
+                    </tr>
+                </tr>
+              </tbody>
+           </table>
+        </article>
+<hr><hr><hr><hr><hr>
+<article id="Skills">
+<h1>Skills</h1>
+
+<ol>
+    <li>
+        Graphic Desining
+    </li>
+    <li>Computer Programming</li>
+    <li>Video Editing</li>
+    <li>Web Development</li>
+    <li>Cyber Security</li>
+</ol>
+</article>
 </body>
 </html>
